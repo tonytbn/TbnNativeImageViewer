@@ -1,0 +1,31 @@
+{
+  "name": "tbnnativeimgviewer",
+  "widgetName": "TBNNativeImgViewer",
+  "version": "1.0.0",
+  "description": "For base64 image",
+  "copyright": "TBN2022",
+  "author": "tonytbn",
+  "engines": {
+    "node": ">=12"
+  },
+  "license": "Apache-2.0",
+  "config": {
+    "projectPath": "./tests/testProject/"
+  },
+  "packagePath": "tbn",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:native",
+    "build": "pluggable-widgets-tools build:native",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:native"
+  },
+  "bugs": {
+    "url": "https://github.com/tonytbn/tbnnativeimgviewer/issues"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^9.0.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget
+    id="tbn.tbnnativeimgviewer.TBNNativeImgViewer"
+    pluginWidget="true"
+    needsEntityContext="true"
+    offlineCapable="true"
+    supportedPlatform="Native"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd"
+>
+    <name>TBNNative Img Viewer</name>
+    <description>For base64 image</description>
+    <icon>
+        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
+    </icon>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="based64" type="attribute" required="true">
+                <caption>Image Based64</caption>
+                <description>Map the image based64</description>
+                <attributeTypes>
+                    <attributeType name="String" />
+                </attributeTypes>
+            </property>
+            <property key="imgW" type="attribute" required="true">
+                <caption>Image Width</caption>
+                <description>Map the image Width</description>
+                <attributeTypes>
+                    <attributeType name="Integer" />
+                </attributeTypes>
+            </property>
+            <property key="imgH" type="attribute" required="true">
+                <caption>Image Height</caption>
+                <description>Map the image Height</description>
+                <attributeTypes>
+                    <attributeType name="Integer" />
+                </attributeTypes>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
